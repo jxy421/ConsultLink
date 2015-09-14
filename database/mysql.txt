@@ -1,0 +1,39 @@
+登陆mysql
+mysql -uroot -phadoop
+加载数据库驱动
+oracle：
+oracle.jdbc.driver.OracleDriver
+mysql:
+com.mysql.jdbc.Driver
+获取连接的数据库路径
+orcale：1521
+jdbc:oracle:thin:@HOST:PORT:数据库实例名称
+jdbc:oracle:thin:@192.168.1.2:1521:jxy
+mysql：3306
+jdbc:mysql://HOST:PORT/数据库名称
+jdbc:mysql://192.168.160.201:3306//mydb
+SQL注入式攻击
+' OR '1'='1
+预编译SQL
+INSERT INTO user(id,username,password)
+VALUES(?,?,?)
+SELECT * FROM user
+WHERE username=? AND password=?
+
+UPDATE user SET username=? 
+WHERE id=?
+
+SELECT * FROM emp
+WHERE deptno IN(?,?,?)//IN相当于枚举
+MYSQL实现ID自动增加
+创建表的时候实现
+CREATE TABLE dept(
+	deptno INT(3) primary key auto_increment not null,
+	deptname VARCHAR(20),
+	loc VARCHAR(20)
+)
+如果在创建表时没有设置，后来想设置，可以通过修改实现：
+alter table Test auto_increment = 1000;  
+
+
+

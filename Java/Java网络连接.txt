@@ -1,0 +1,9 @@
+URL和URI
+http://www.cnblogs.com/mu-mu/p/4062190.html
+http://www.cnblogs.com/gaojing/archive/2012/02/04/2413626.html
+Java.net类图
+http://www.cnblogs.com/syncg/archive/2011/04/07/2008242.html
+URLConnection的连接、超时、关闭用法总结 
+http://liuxi1024.iteye.com/blog/519047
+JDK中的URLConnection参数详解 
+http://www.blogjava.net/supercrsky/articles/247449.html

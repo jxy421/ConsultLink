@@ -1,0 +1,13 @@
+协同过滤推荐算法
+http://www.cnblogs.com/zhangchaoyang/articles/2664366.html
+协同过滤和基于内容推荐有什么区别？ 
+http://www.zhihu.com/question/19971859
+归一化处理
+http://blog.csdn.net/zbc1090549839/article/details/44103801
+
+ALS 在 Spark MLlib 中的实现--孟祥瑞
+http://www.aboutyun.com/thread-12988-1-1.html
+Spark源代码分析
+http://www.aboutyun.com/thread-10700-1-1.html
+推荐引擎算法学习导论：协同过滤、聚类、分类 
+http://blog.csdn.net/wolenski/article/details/7982555
