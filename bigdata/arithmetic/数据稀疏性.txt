@@ -1,0 +1,6 @@
+个性化推荐引擎：利用social relations帮助解决数据的稀疏性问题
+http://blog.baifendian.com/?p=892
+推荐系统相关算法(2)：k-nearest neighbor
+http://www.cnblogs.com/FengYan/archive/2012/07/13/2498277.html
+个性化推荐的十大挑战
+http://blog.sciencenet.cn/home.php?mod=space&uid=3075&do=blog&id=554630
