@@ -1,0 +1,57 @@
+RDD支持的操作
+创建RDD
+	从集合创建RDD
+		sc.parallelize(1 to 9, 3)    ===>  ParallelCollectionRDD
+	从外部存储创建RDD
+		sc.parallelize("file:///..../file.txt", 3)   ===>  ParallelCollectionRDD
+转换
+基本转换
+    map 1 -> 1
+    distinct 返回所有不一样的元素
+    flatMap 1 -> N
+    repartition 重新分区
+    coalesce(较复杂, 考虑shuffle 参数， 没太明白)
+    randomSplit 给定加权，随机切分RDD并返回
+    glom 把所有元素作为一个Array返回
+    union 将两个RDD的数据合并，返回并集但不去重
+    intersection 交集
+    subtract 减去另一个RDD的元素
+    mapPartitions 按分区map
+    mapPartitionsWithIndex
+    zip 把2个RDD按照k,v 结合
+    zipPartitions
+键值RDD转换
+    partitionBy
+    mapValues
+    flatMapValues
+    combineByKey
+    foldByKey
+    reduceByKey
+    groupByKey
+    cogroup
+    join
+    leftOuterJoin
+    rightOuterJoin
+    subtractByKey
+Spark在计算过程中内部生成的RDD多于定义的RDD。这应该也很容易理解: 一些复杂的计算操作是基本操作的复合。
+基本操作: 控制操作
+在做cache这样的动作之前，RDD是没有“实体化”的。
+    cache
+    persist cache 和persist默认都是存到内存。persist还可以指定其他存储介质
+    checkpoint 持久化到HDFS，且作为还原点。过多的依赖对系统资源占用高，容错重算成本也高。少量的checkpoint还有必要的。
+基本操作: 行动操作
+前面提过compute过程。无论执行了多少次转换操作，RDD都不会真正执行运算，只有当action操作被执行时，运算才会触发。从字面上看都还比较容易理解，不再多说。
+    first
+    count
+    reduce
+    collect
+    take
+    top
+    takeOrdered
+    aggregate
+    fold
+    lookup
+
+存储行动操作
+
+可以把数据存入本地或HadoopFile。

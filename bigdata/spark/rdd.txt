@@ -1,2 +1,19 @@
 SPark RDD
 http://www.aboutyun.com/thread-11277-1-1.html
+spark RDD keyvalue操作
+http://www.aboutyun.com/thread-11277-1-1.html
+(出处: about云开发)
+Spark RDD详解
+http://www.aboutyun.com/thread-7214-1-1.html
+(出处: about云开发)
+基于内存的集群计算容错抽象
+http://shiyanjun.cn/archives/744.html
+Spark：RDD理解
+http://dtstar.cn/Understanding%20RDD/
+
+Spark RDD API详解(一) Map和Reduce 
+http://blog.csdn.net/jewes/article/details/39896301
+Spark算子：RDD基本转换操作(1)–map、flagMap、distinct
+http://lxw1234.com/archives/2015/06/325.htm
+Spark中的编程模型
+http://debugo.com/spark-programming-model/

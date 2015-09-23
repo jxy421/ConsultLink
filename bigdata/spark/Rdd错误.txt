@@ -1,0 +1,2 @@
+mapValues不能用
+http://stackoverflow.com/questions/24624801/scala-code-works-on-spark-terminal-but-not-in-eclipse
