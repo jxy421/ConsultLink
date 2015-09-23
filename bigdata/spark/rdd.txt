@@ -17,3 +17,6 @@ Spark算子：RDD基本转换操作(1)–map、flagMap、distinct
 http://lxw1234.com/archives/2015/06/325.htm
 Spark中的编程模型
 http://debugo.com/spark-programming-model/
+
+【Spark二十二】在Intellij Idea中调试运行Spark应用程序
+http://bit1129.iteye.com/blog/2175968
