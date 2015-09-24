@@ -1,4 +1,30 @@
 Spark Mlib
 http://www.tuicool.com/articles/aymuien
-
 http://rdc.taobao.org/?p=2163
+Spark MLlib之协同过滤
+http://blog.selfup.cn/1001.html
+Spark 基于item和user 的协同过滤实现 
+http://blog.csdn.net/mach_learn/article/details/46890833
+Spark vs. MapReduce 时间节约66%，计算节约40%
+http://www.csdn.net/article/2014-11-04/2822474
+Spark MLlib系列(二):基于协同过滤的电影推荐系统 
+http://demo.netfoucs.com/shifenglov/article/details/43795597#
+协同过滤算法在MapReduce与Spark上实现对比
+http://data.qq.com/article?id=823
+spark mllib中ALS算法的思想？ 
+http://www.zhihu.com/question/31509438
+Spark机器学习库mllib之协同过滤
+http://oopsoutofmemory.github.io/machine%20learning/spark/mllib/2014/11/19/spark-ji-qi-xue-xi-ku-mllib-zhi-xie-tong-guo-lv/
+Spark—基于物品的协同过滤推荐算法
+http://www.jeepshoe.org/96154416.htm
+基于Spark构建推荐引擎之一：基于物品的协同过滤推荐
+http://www.jeepshoe.org/96161524.htm
+协同过滤推荐算法研究
+http://www.jeepshoe.org/861550481.htm
+Spark Mlib
+http://www.tuicool.com/articles/aymuien
+http://rdc.taobao.org/?p=2163
+[原]基于Spark构建推荐引擎之一：基于物品的协同过滤推荐
+http://m.blog.csdn.net/blog/sunbow0/42737541
+基于ALS算法的简易在线推荐系统 
+http://colobu.com/2015/01/15/simple-online-recommendation-system-based-on-ALS-algorithm/
