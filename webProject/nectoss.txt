@@ -1,0 +1,20 @@
+1. 引入jar包、添加配置文件applicationContext.xml
+资费管理列表
+1. cost表
+2. 引入SpringMVC,SpringIOC,MyBatis开发包配置
+列表显示
+3. /fee/feelist.from--->FeeListController.execute-->feelist
+删除
+/fee/fee_delete.from?i789---->feeDeleteController---->feelist.from
+a.CostMap.xml---->SQL语句
+b.在costMapperdao--->添加方法
+c. FeeDeleteController.execute
+d. 在feelist.jsp页面发送feedelete.from
+=====添加=====
+5./fee/toAdd.from--->FeeAddController.toAdd方法---》/fee/feeadd.jsp
+/fee/addCost.from---》FeeAddcontorller.add====>fee/feelist.from
+a. CostMap.xml定义insert语句
+b. costMapperDao定义add方法
+
+
+
