@@ -1,4 +1,17 @@
-spark北京
+﻿一、研究背景、研究研究现状########################################################
+Spark的成功案例
 http://wenku.baidu.com/link?url=7hjd63HSEhTR7vrKi2AMJfs1PSeyyjRBCmOed7JBn0b3JyuFpirF3A63x2MtQUZHcLpDmVz-FptGXXLfWclPjnFEZ1zxtmTOfRmX4xRu833
-机器学习
+
+机器学习(Machine Learning)&深度学习(Deep Learning)资料(Chapter 1)
 https://github.com/ty4z2008/Qix/blob/master/dl.md
+
+协同过滤算法在MapReduce与Spark上实现对比
+http://data.qq.com/article?id=823
+
+快刀初试：Spark GraphX在淘宝的实践
+http://rec-sys.net/forum.php?mod=viewthread&tid=398
+
+京东推荐系统三部曲
+https://www.linkedin.com/pulse/%E4%BA%AC%E4%B8%9C%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E4%B8%89%E9%83%A8%E6%9B%B2-chinwa-hu
+
+#######################################
