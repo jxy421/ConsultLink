@@ -15,6 +15,6 @@ d. 在feelist.jsp页面发送feedelete.from
 /fee/addCost.from---》FeeAddcontorller.add====>fee/feelist.from
 a. CostMap.xml定义insert语句
 b. costMapperDao定义add方法
-
+==========================myBatis===
 
 

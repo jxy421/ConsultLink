@@ -1,0 +1,4 @@
+SP、Servlet中的相对路径和绝对路径 页面跳转问题 
+http://blog.csdn.net/wym19830218/article/details/5503533/
+Hibernate validator版本兼容问题
+http://www.aichengxu.com/view/37812
